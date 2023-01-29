@@ -1,0 +1,256 @@
+/* FULL PAGE */
+
+* {
+  font-family: 'Bai Jamjuree', sans-serif;
+  letter-spacing: 1.44px;
+}
+
+body {
+  background: #F5F5F5;
+}
+
+/* HEADER */
+
+header {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-link {
+  font-size: 16px;
+  line-height: 24px;
+  color: #303030;
+  text-decoration: none;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 100%;
+  max-width: 275px;
+}
+
+/* MAIN-SCREEN */
+
+.main-screen {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+.main-screen-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-screen-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.main-screen__button {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #F5F5F5;
+  background-color: #700000;
+  width: 621.6px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.main-screen__image {
+  width: 100%;
+  max-width: 460px;
+  max-height: 460px;
+  border-radius: 300px;
+}
+
+.border {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  background-color: #303030;
+}
+
+.border__items {
+  color: #F5F5F5;
+  display: flex;
+  gap: 134px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info-content {
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.info-about__title {
+  margin: 0;
+  color: #303030;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 64px;
+}
+
+.info-desc__text {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city-title,
+.experience-title,
+.birth-title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #700000;
+}
+
+.city-desc,
+.experience-desc,
+.birth-desc {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  color: #303030;
+}
+
+.info__title, .section-portfolio__title, .contact__title {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 56px;
+  text-align: center;
+  margin: 100px 0;
+}
+
+.section-portfolio-content {
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto;
+  gap: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio__image {
+  max-width: 480px;
+  filter: grayscale(1);
+  transition: 1s;
+}
+
+.portfolio__image:hover {
+  filter: grayscale(0);
+}
+
+.item__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #F5F5F5;
+  background-color: #700000;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.item__title {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 56px;
+}
+
+.item__subtitle {
+  font-size: 20px;
+  line-height: 32px;
+  margin-block-end: 0;
+}
+
+.section-portfolio__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-contact {
+  width: 100%;
+  max-width: 1060px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.contact__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #F5F5F5;
+  border: 1px solid#303030;
+  width: 241px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-contact__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #F5F5F5;
+  border: 1px solid#303030;
+  width: 514px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
