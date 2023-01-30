@@ -14,7 +14,7 @@ body {
 header {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 30px 20px;
+  padding: 30px 14px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,6 +26,16 @@ header {
   line-height: 24px;
   color: #303030;
   text-decoration: none;
+  padding: 0 3px;
+  border: 1px solid #F5F5F5;
+  transition: 500ms;
+}
+
+
+.header-link:hover {
+  color: #f5f5f5;
+  background-color: #700000;
+  transition: 500ms;
 }
 
 .logo-link {
@@ -37,6 +47,7 @@ header {
   width: 100%;
   max-width: 275px;
 }
+
 
 /* MAIN-SCREEN */
 
@@ -65,14 +76,24 @@ header {
   font-size: 18px;
   line-height: 32px;
   text-transform: uppercase;
-  color: #F5F5F5;
-  background-color: #700000;
+  color: #303030;
+  border: 1px solid #303030;
   width: 621.6px;
   height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 1em;
+  transition: 1s;
+}
+
+.main-screen__button:hover {
+  font-size: 22px;
+  color: #F5F5F5;
+  background-color: #700000;
+  border: 0;
+  height: 80px;
+  transition: 1s;
 }
 
 .main-screen__image {
@@ -149,6 +170,7 @@ header {
 }
 
 .info__title, .section-portfolio__title, .contact__title {
+  color: #303030;
   font-weight: 400;
   font-size: 45px;
   line-height: 56px;
@@ -181,14 +203,23 @@ header {
   font-size: 18px;
   line-height: 32px;
   text-transform: uppercase;
-  color: #F5F5F5;
-  background-color: #700000;
+  color: #303030;
+  border: 1px solid #303030;
   width: 200px;
   height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 1em;
+}
+
+.item__link:hover {
+  font-size: 22px;
+  color: #F5F5F5;
+  background-color: #700000;
+  border: 0;
+  height: 80px;
+  transition: 1s;
 }
 
 .item__title {
@@ -253,4 +284,8 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.contact__link:hover, .main-contact__link:hover {
+  background-color: #700000;
 }
