@@ -1,127 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="/./styles/styles.css">
-   <link rel="stylesheet" href="/./styles/normalize.css">
-   <title>Konstantin Terzi</title>
+   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&family=Montserrat+Subrayada:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="../styles/reset.css">
+   <link rel="stylesheet" href="../styles/styles.css">
+   <title>KONSTANTIN TERZI</title>
 </head>
-
 <body>
    <header>
-         <a href="#" class="header-link">PORTFOLIO</a>
-     
-         <a href="/./pages/homepage.html" class="logo-link"><img src="/images/b-logo_large.svg" alt="logo with my name" class="logo-image"></a> 
-         
-         <a href="#" class="header-link">CONTACT</a>
+      <div class="header">
+         <a href="#portfolio" class="header-link"> portfolio </a>
+
+         <a href="../pages/homepage.html" class="logo header-logo"> konstantin terzi </a>
+
+         <a href="#contact" class="header-link"> contact </a>
+      </div>
    </header>
 
    <main>
       <section class="main-screen">
-         <div class="main-screen-content">
-            <div class="main-screen-desc">
-               <h1 class="main-screen__title">HI! I AM KONSTANTIN.<br>
-               A BEGINNER FRONTEND DEVELOPER.</h1>
-               <a href="#about_me" class="main-screen__button">Read more about me</a>
+         <div class="block main-screen-content">
+            <div class="text main-screen-content-text">
+               <h1 class="title main-screen-content-text__title">hi! I am Konstantin. <br>
+               a beginner frontend developer. <br> </h1>
+
+               <p class="subtitle main-screen-content-text__subtitle">
+                  19 years old // Yerevan, Armenia 
+               </p>
             </div>
 
-            <div class="main-screen-img">
-               <img src="/./images/photo.png" srcset="/./images/photo2x.png" alt="my picture" class="main-screen__image">
+            <div class="main-screen-content-image">
+               <img class="main-screen-content-image__image" src="../images/main-screen-content-image.png" alt="my photo" srcset="../images/main-screen-content-image2x.png 2x">
             </div>
          </div>
       </section>
 
-      <div class="border">
-         <ul class="border__items">
-            <li>HTML5</li>
-            <img src="/./images/w-s-logo_large.svg" alt="logo-image">
-            <li>CSS3</li>
-            <img src="/./images/w-s-logo_large.svg" alt="logo-image">
-            <li>GITHUB</li>
-            <img src="/./images/w-s-logo_large.svg" alt="logo-image">
-            <li>FIGMA</li>
-            <img src="/./images/w-s-logo_large.svg" alt="logo-image">
-         </ul>
-      </div>
+      <section id="portfolio" class="portfolio">
+         <div class="block portfolio-content">
+            <div class="text portfolio-content-text">
+               <h2 class="title portfolio-content-text__title">
+                  portfolio
+               </h2>
 
-      <section class="info">
-         <h1 class="info__title">About me</h1>
-         <div class="info-content">
-            <div class="info-about">
-               <h1 class="info-about__title">A beginner frontend developer and an online school "Skillfactory" student.</h1>
+               <p class="subtitle portfolio-content-text-subtitle">
+                  sites that I developed
+               </p>
             </div>
 
-            <div class="info-desc">
-               <h2 class="info-desc__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h2>
-               
-               <div class="about-me">
-                  <div class="city">
-                     <h4 class="city-title">BORN IN</h4>
-                     <p class="city-desc">Moldova</p>
+            <div class="portfolio-content-items">
+               <div class="portfolio-content-items-item">
+                  <div class="portfolio-content-items-item-image">
+                     <img src="../images/minimal-blog.png" srcset="../images/minimal-blog2x.png 2x" alt="" class="portfolio-content-items-item-image__image">
                   </div>
 
-                  <div class="experience">
-                     <h4 class="experience-title">EXPERIENCE</h4>
-                     <p class="experience-desc">3 Months</p>
+                  <div class="portfolio-content-items-item-info">
+                     <div class="portfolio-content-items-item-info-links">
+                        <a href="https://heiskonstantin.github.io/minimal-blog-kt/pages/home-page.html" target="_blank" class="portfolio-content-items-item-info-links__item">
+                           link to the website
+                        </a>
+                        <a href="https://github.com/heiskonstantin/minimal-blog-kt" target="_blank" class="portfolio-content-items-item-info-links__item">
+                           link to the github repository
+                        </a>
+                     </div>
+
+                     <div class="portfolio-content-items-item-info-text">
+                        <p class="subtitle portfolio-content-items-item-info-text__subtitle"> when developing site i used:</p>
+
+                        <div class="portfolio-content-items-item-info-text-subtitle-lists">
+                           <ul class="portfolio-content-items-item-info-text-subtitle-lists__items">
+                              <li class="portfolio-content-items-item-info-text-subtitle-lists__item">
+                                 FIGMA
+                              </li>
+
+                              <li class="portfolio-content-items-item-info-text-subtitle-lists__item">
+                                 VScode
+                              </li>
+                              
+                           </ul>
+
+                           <ul class="portfolio-content-items-item-info-text-subtitle-lists__items">
+                              <li class="portfolio-content-items-item-info-text-subtitle-lists__item">
+                                 HTML5
+                              </li>
+
+                              <li class="portfolio-content-items-item-info-text-subtitle-lists__item">
+                                 CSS3
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="portfolio-content-items-item">
+                  <div class="portfolio-content-items-item-image">
+                     <img src="../images/design-studio.png" srcset="../images/design-studio2x.png 2x" alt="" class="portfolio-content-items-item-image__image">
                   </div>
 
-                  <div class="birth">
-                     <h4 class="birth-title">DATE OF BIRTH</h4>
-                     <p class="birth-desc">3 June 2003</p>
-                  </div>
+                  <div class="portfolio-content-items-item-info">
+                     <div class="portfolio-content-items-item-info-links">
+                        <a href="https://heiskonstantin.github.io/design-studio-kt/pages/home.html" target="_blank" class="portfolio-content-items-item-info-links__item">
+                           link to the website
+                        </a>
+                        <a href="https://github.com/heiskonstantin/design-studio-kt" target="_blank" class="portfolio-content-items-item-info-links__item">
+                           link to the github repository
+                        </a>
+                     </div>
 
+                     <div class="portfolio-content-items-item-info-text">
+                        <p class="subtitle portfolio-content-items-item-info-text__subtitle"> when developing site i used:</p>
+
+                        <div class="portfolio-content-items-item-info-text-subtitle-lists">
+                           <ul class="portfolio-content-items-item-info-text-subtitle-lists__items">
+                              <li class="portfolio-content-items-item-info-text-subtitle-lists__item">
+                                 FIGMA
+                              </li>
+
+                              <li class="portfolio-content-items-item-info-text-subtitle-lists__item">
+                                 VScode
+                              </li>
+                              
+                           </ul>
+
+                           <ul class="portfolio-content-items-item-info-text-subtitle-lists__items">
+                              <li class="portfolio-content-items-item-info-text-subtitle-lists__item">
+                                 HTML5
+                              </li>
+
+                              <li class="portfolio-content-items-item-info-text-subtitle-lists__item">
+                                 CSS3
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
       </section>
 
-      <section class="section-portfolio">
-         <h1 class="section-portfolio__title">Portfolio</h1>
+      <section id="contact" class="contact">
+         <div class="block contact-content">
+            <div class="text contact-content-text">
+               <h2 class="title contact-content-text__title">
+                  contact
+               </h2>
 
-         <div class="section-portfolio-content">
-
-            <div class="section-portfolio-image">
-               <img src="/./images/item-img.png" alt="screenshot of web-site" srcset="/./images/item-img2x.png 2x" class="portfolio__image">
+               <p class="subtitle contact-content-text-subtitle">
+                  here is how you can contact me
+               </p>
             </div>
 
-            <div class="section-portfolio__item">
-               <a href="https://heiskonstantin.github.io/project_kt/pages/home-page.html" target="_blank" class="item__link">Link</a>
-               <h2 class="item__title">My web-site that I made in the course of training </h2>
-               <p class="item__subtitle">When developing site, I used: Figma, Visual Studio Code, HTML5 and CSS3</p>
-            </div>
-         </div>
-         
-      </section>
-
-      <section>
-         <h1 class="contact__title">Contact</h1>
-         <div class="contact">
-            <div class="main-contact">
-               <a href="https://github.com/heiskonstantin" target="_blank" class="main-contact__link">
-                  <img src="/./images/gh-logo.svg" alt="GitHub logo" class="logo-contact"> </a>
-               <a href="https://hh.ru/resume/2d365aedff0b9e71ae0039ed1f75757243376a" target="_blank" class="main-contact__link">
-                  <img src="/./images/hh-logo.svg" alt="HeadHunter logo" class="logo-contact"> </a>
-            </div>
-
-            <div class="main-contact">
-               <a href="tel:+79307390739" class="contact__link"> 
-                  <img src="/./images/ph-logo.svg" alt="mobile phone logo" class="logo-contact"> </a>
-               <a href="mailto:heiskonstantin@gmail.com" class="contact__link">
-                  <img src="/./images/em-logo.svg" alt="e-mail logo" class="logo-contact"> </a>
-               <a href="https://t.me/heiskonstantin" target="_blank" class="contact__link"> 
-                  <img src="/./images/tg-logo.svg" alt="telegram logo" class="logo-contact"> </a>
-               <a href="https://instagram.com/heiskonstantin" target="_blank" class="contact__link">
-                  <img src="/./images/ig-logo.svg" alt="instagram logo" class="logo-contact"> </a>
+            <div class="contact-content-items">
+               <a href="https://t.me/heiskonstantin" target="_blank" class="contact-content-items__link">telegram</a>
+               <a href="https://instagram.com/heiskonstantin" target="_blank" class="contact-content-items__link">instagram</a>
+               <a href="mailto:heiskonstantin@gmail.com" target="_blank" class="contact-content-items__link">e-mail</a>
+               <a href="https://github.com/heiskonstantin" target="_blank" class="contact-content-items__link">github</a>
             </div>
          </div>
       </section>
+
    </main>
 </body>
-
 </html>
