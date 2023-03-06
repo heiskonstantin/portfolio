@@ -1,0 +1,307 @@
+@media only screen and (max-width: 1060.99px) {
+  .block,
+  .header {
+    width: min(100% - 60px, 1060px);
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .desc {
+    font-size: 2rem;
+  }
+
+  .age {
+    font-size: 1.5rem;
+  }
+
+  .location {
+    font-size: 1rem;
+  }
+
+  .portfolio-content-items {
+    flex-direction: column;
+  }
+
+  .portfolio-content-items-item-image-info__title {
+    margin-bottom: 40px;
+  }
+
+  .portfolio-content-items-item-links__link {
+    font-size: 0.7rem;
+  }
+
+  .contacts-content-items__link {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 999.99px) {
+  .block,
+  .header {
+    width: min(100% - 60px, 999px);
+  }
+  .link:hover {
+    letter-spacing: 0.2rem;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .desc {
+    font-size: 1.5rem;
+  }
+
+  .age {
+    font-size: 1.3rem;
+  }
+
+  .location {
+    font-size: 1rem;
+  }
+
+  .contacts-content-items__link {
+    width: 180px;
+    height: 80px;
+  }
+
+  .portfolio-content-items-item-image-info__title {
+    margin-bottom: 30px;
+  }
+
+  .contacts-content-items__link {
+    padding: 5px;
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 899.99px) {
+  .block,
+  .header {
+    width: min(100% - 30px, 899px);
+    padding: 10px 15px;
+  }
+  header {
+    height: 671px;
+  }
+
+  .header-nav-link {
+    font-size: 1rem;
+  }
+
+  .main-screen {
+    height: 606px;
+  }
+
+  .main-screen-info {
+    letter-spacing: 0.5rem;
+  }
+
+  .name {
+    font-size: 1.7rem;
+  }
+
+  .desc {
+    font-size: 1.1rem;
+  }
+
+  .age {
+    font-size: 1rem;
+  }
+
+  .location {
+    font-size: 0.8rem;
+  }
+
+  .contacts-content-items__link-text {
+    display: none;
+  }
+
+  .contacts-content-items__link:hover > svg {
+    fill: var(--whitesmoke);
+    width: 30px;
+    height: 30px;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 767.99px) {
+  .block,
+  .header {
+    width: min(100% - 30px, 767px);
+    padding: 10px 15px;
+  }
+  .contacts-content-items__link:hover > svg {
+    width: 20px;
+    height: 20px;
+  }
+  body {
+    letter-spacing: 0.2rem;
+  }
+
+  .footer__info {
+    font-size: 0.6rem;
+  }
+
+  .footer-links__link > svg {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media only screen and (max-width: 610.99px) {
+  .block,
+  .header {
+    width: min(100% - 30px, 610px);
+    padding: 10px 15px;
+  }
+  .header-nav-link {
+    font-size: 0.7rem;
+  }
+  .name {
+    font-size: 1.3rem;
+  }
+
+  .desc {
+    font-size: 1.1rem;
+  }
+
+  .age {
+    font-size: 0.9rem;
+  }
+
+  .location {
+    font-size: 0.8rem;
+  }
+
+  .portfolio-content {
+    margin-bottom: 35px;
+  }
+}
+
+@media only screen and (max-width: 550.99px) {
+  .block,
+  .header {
+    width: min(100% - 30px, 550px);
+    padding: 10px 15px;
+  }
+  .title {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  .subtitle {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+
+  .main-screen-info {
+    letter-spacing: 0.3rem;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+
+  .desc {
+    font-size: 0.9rem;
+  }
+
+  .age {
+    font-size: 0.8rem;
+  }
+
+  .location {
+    font-size: 0.7rem;
+  }
+
+  .portfolio-content-items-item-links__link {
+    font-size: 0.5rem;
+  }
+
+  .contacts-content-items__link {
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 450.99px) {
+  .block,
+  .header {
+    width: min(100% - 30px, 450px);
+    padding: 10px 15px;
+  }
+  .title {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
+
+  .subtitle {
+    font-size: 0.5rem;
+  }
+
+  .portfolio-content-items-item-links__link {
+    font-size: 0.3rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .contacts-content-items__link {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 402.99px) {
+  .block,
+  .header {
+    width: min(100% - 30px, 420px);
+    padding: 10px 15px;
+  }
+
+  .desc {
+    font-size: 0.8rem;
+  }
+
+  .contacts-content-items__link {
+    height: 30px;
+  }
+
+  .contacts-content-items__link > svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .contacts-content-items__link:hover > svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer__info {
+    font-size: 0.5rem;
+  }
+
+  .footer-links__link > svg {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media only screen and (max-width: 375.99px) {
+  .block,
+  .header,
+  .header {
+    width: min(100% - 30px, 375px);
+    padding: 10px 15px;
+  }
+  .title {
+    font-size: 0.6rem;
+    margin-bottom: 9px;
+  }
+
+  .subtitle {
+    font-size: 0.4rem;
+    line-height: 0.7rem;
+  }
+}
